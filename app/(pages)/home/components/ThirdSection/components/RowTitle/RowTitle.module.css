@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.title {
+    color: #303030 !important;
+    font-size: 28px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    margin: 0 !important;
+    width: fit-content;
+    flex-shrink: 0;
+}
+
+
+.divider {
+    width: 100%;
+    margin-left: 12px;
+    height: 2px;
+    background-color: #DDDDDD;
+    border-radius: 3px;
+}

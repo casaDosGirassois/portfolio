@@ -1,6 +1,9 @@
 .wrapper {
     min-height: calc(100vh - 200px);
     padding: 100px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .imageContainer {

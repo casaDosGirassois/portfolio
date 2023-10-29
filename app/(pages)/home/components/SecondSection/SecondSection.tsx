@@ -1,8 +1,7 @@
 import { Col, Row, Typography } from "antd";
 import style from "./SecondSection.module.css";
-import Title from "./components/Title/Title";
-import Paragraph from "./components/Paragraph/Paragraph";
-import Citation from "./components/Citation/Citation";
+import Title from "../../../../components/Title/Title";
+import Paragraph from "../../../../components/Paragraph/Paragraph";
 
 export default function SecondSection() {
     return (
@@ -19,12 +18,12 @@ export default function SecondSection() {
                     </Paragraph>
                 </Col>
                 <Col md={8}>
-                    <Citation>
-                        Frase de efeito
-                    </Citation>
+                    <Title style={{ fontSize: 22, textAlign: "center" }}>
+                        <strong>Frase de efeito</strong>
+                    </Title>
                 </Col>
             </Row>
-            <Row gutter={12} style={{ marginTop: 24 }}>
+            <Row gutter={12}>
                 <Col md={12} sm={24} xs={24}>
                     <div className={style.imageContainer}>
                         Image goes here

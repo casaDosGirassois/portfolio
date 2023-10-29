@@ -1,0 +1,14 @@
+.wrapper {
+    min-height: calc(100vh - 100px);
+    padding: 50px 32px;
+}
+
+.imageContainer {
+    width: 100%;
+    min-height: 250px;
+    background-color: #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
