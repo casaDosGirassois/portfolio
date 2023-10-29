@@ -8,20 +8,20 @@ export default function Footer() {
     return (
         <div className={style.wrapper}>
             <Row style={{ width: '90%' }}>
-                <Col md={4} style={{ display: "flex", justifyContent: "center" }}>
+                <Col md={4} sm={24} xs={24} style={{ display: "flex", justifyContent: "center" }}>
                     <Image
                         width={100}
                         src={logo}
                         alt="Casa dos girassóis logo"
                     />
                 </Col>
-                <Col md={5} style={{ display: "flex", justifyContent: "center" }}>
+                <Col md={5} sm={12} xs={12} style={{ display: "flex", justifyContent: "center" }}>
                     <div className={style.textArea}>
                         <h3>Localização</h3>
                         <span>Rua Cabuçu, 29<br />Mairiporã/SP<br />07600-000</span>
                     </div>
                 </Col>
-                <Col md={5} style={{ display: "flex", justifyContent: "center" }}>
+                <Col md={5} sm={12} xs={12} style={{ display: "flex", justifyContent: "center" }}>
                     <div className={style.textArea}>
                         <h3>Contato</h3>
                         <div className={style.contactArea}>
@@ -38,7 +38,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </Col>
-                <Col md={5} style={{ display: "flex", justifyContent: "center" }}>
+                <Col md={5} sm={12} xs={12} style={{ display: "flex", justifyContent: "center" }}>
                     <div className={style.textArea}>
                         <h3>Especialidades</h3>
                         <ul>
@@ -48,7 +48,7 @@ export default function Footer() {
                         </ul>
                     </div>
                 </Col>
-                <Col md={5} style={{ display: "flex", justifyContent: "center" }}>
+                <Col md={5} sm={12} xs={12} style={{ display: "flex", justifyContent: "center" }}>
                     <div className={style.textArea}>
                         <h3>Links úteis</h3>
                         <ul>
