@@ -16,7 +16,16 @@
     height: 100%;
 }
 
-.chrisImage > div {
+@media (max-width: 768px) {
+    .chrisImage {
+        width: 100vw;
+    }
+    .wrapper {
+        height: 70vh;
+    }
+}
+
+.chrisImage>div {
     width: 100%;
     height: 100%;
     background-color: white;
