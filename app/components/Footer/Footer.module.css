@@ -1,0 +1,33 @@
+.wrapper {
+    min-height: 50vh;
+    background: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textArea>h3 {
+    margin: 0 0 12px;
+    color: #484848;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.textArea span {
+    color: #898786;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contactArea {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.wrapper ul {
+    padding-left: 20px;
+}
